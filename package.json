@@ -1,0 +1,23 @@
+{
+  "name": "pdf-merge-service",
+  "version": "1.0.0",
+  "description": "API para mesclar arquivos PDF usando Node.js e PDF-lib",
+  "main": "server.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "pdf-lib": "^1.17.1"
+  },
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
