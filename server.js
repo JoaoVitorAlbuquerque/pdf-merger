@@ -6,7 +6,7 @@ import { fileURLToPath } from "url";
 import cors from "cors";
 import { PDFDocument } from "pdf-lib";
 
-const app = express();
+const app = express('*');
 const PORT = 3001;
 
 // Habilitar CORS
